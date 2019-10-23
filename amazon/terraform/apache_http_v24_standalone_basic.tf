@@ -327,7 +327,6 @@ variable "HTTPNode01_root_block_device_volume_size" {
   default = "25"
 }
 
-
 #Parameter : HTTPNode01_root_block_device_delete_on_termination
 variable "HTTPNode01_root_block_device_delete_on_termination" {
   type = "string"
@@ -534,7 +533,6 @@ resource "camc_softwaredeploy" "HTTPNode01_httpd24-base-install" {
 }
 EOT
 }
-
 
 #########################################################
 ##### Resource : VaultItem
